@@ -103,7 +103,10 @@ header ul li.active a {
 .banner h2,
 .banner p {
   z-index: 1;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+  text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff;
   margin: 0;
   color: #b6dc6fd4;
@@ -251,6 +254,20 @@ header ul li.active a {
   gap: 40px;
   flex-wrap: wrap;
 }
+/* Link pada ikon halaman Kontak */
+.kontak .icon .contact-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.kontak .icon .contact-link i {
+  color: inherit;
+}
+
+.kontak .icon .contact-link:hover {
+  text-decoration: none;
+}
 
 /* TEKS SAMPING PETA */
 .map-info {
@@ -348,7 +365,7 @@ footer {
     text-align: center;
     float: none;
   }
-  .box .col-4{
+  .box .col-4 {
     width: 100%;
     float: none;
     margin-bottom: 20px;
